@@ -12,13 +12,6 @@
   align-items: center;
 }
 
-.vertical-center {
-  min-height: 95%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 95vh; /* These two lines are counted as one :-)       */
-  display: flex;
-  align-items: center;
-}
-
 .card {
   align-items: center;
   text-align: center;
@@ -27,7 +20,7 @@
 }
 
 .card-image:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
   opacity: 0.9;
 }
 
@@ -35,85 +28,9 @@
   height: 200px;
 }
 
-.mrp {
-  text-decoration: line-through;
-}
-
-.btn-cart {
-  border-radius: 30px;
-  width: 250px;
-  font-size: 1.5em;
-}
-
-.btn-add:hover, .btn-cart:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.carousel-framework-bs {
-  position: absolute;
-  z-index: 10;
-  left: 30px;
-  top: 20px;
-  display: flex;
-  color: black;
-  /* background: rgba(172, 255, 47, 0.671); */
-  background: gold;
-  padding: 0 8px;
-  border-radius: 5px;
-}
-
-.round-img {
-  border-radius: 50%;
-}
-
 .for-margin {
   margin-left: 8%;
   margin-right: 8%;
-}
-
-.for-top-margin {
-  margin-top: 30px;
-}
-
-.for-bottom-margin {
-  margin-bottom: 30px;
-}
-
-.for-padding {
-  padding: 2%;
-}
-
-.new-column {
-  padding: 3%;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
-}
-
-.badge-pill {
-  border-radius: 10%;
-}
-
-.image-box {
-  margin: auto;
-  width: 50%;
-}
-
-.image-box-small {
-  text-align: center;
-  margin: 20px;
-}
-
-.amount-row {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#amount {
-  font-size: 1.5em;
-  vertical-align: middle;
 }
 
 #help {
@@ -122,14 +39,11 @@
   padding: 5%;
 }
 
-#cart,
-#audible {
-  background: rgba(212, 212, 212, 0.521);
-  padding: 5%;
-  min-height: 100vh;
-}
-
 iframe {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+footer {
+  background: rgba(54,162,209,1);
 }
